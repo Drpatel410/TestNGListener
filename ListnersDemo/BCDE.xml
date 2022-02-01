@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BCDE">
+      <listeners>
+           <listener class-name="com.magnus.day30.ScreenShotLisatner"/>
+           </listeners>
+	     <test name="Smoke">
+		<classes>
+		 <class name="com.magnus.day30.DriverExample"/>
+			</classes>
+	</test>
+</suite>
